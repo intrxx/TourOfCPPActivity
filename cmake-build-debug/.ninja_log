@@ -1,0 +1,23 @@
+# ninja log v6
+3	244	7597991760739238	build.ninja	c25a147a8bb09cc0
+15	315	7597990396689003	CMakeFiles/TourOfCPPActivity.dir/Source/main.cpp.obj	7a7c427566b556f1
+316	382	7597990399690194	TourOfCPPActivity.exe	559c288720b316d
+21	307	7597992461330740	CMakeFiles/TourOfCPPActivity.dir/Source/chapter1.cpp.obj	96e4876b46577a43
+13	308	7597992461250737	CMakeFiles/TourOfCPPActivity.dir/Source/main.cpp.obj	7a7c427566b556f1
+15	306	7597993013263896	CMakeFiles/TourOfCPPActivity.dir/Source/main.cpp.obj	7a7c427566b556f1
+23	307	7597993013343901	CMakeFiles/TourOfCPPActivity.dir/Source/chapter1.cpp.obj	96e4876b46577a43
+20	305	7597993464683601	CMakeFiles/TourOfCPPActivity.dir/Source/chapter1.cpp.obj	96e4876b46577a43
+12	306	7597993464603601	CMakeFiles/TourOfCPPActivity.dir/Source/main.cpp.obj	7a7c427566b556f1
+14	312	7597993557096355	CMakeFiles/TourOfCPPActivity.dir/Source/main.cpp.obj	7a7c427566b556f1
+13	308	7597994654968929	CMakeFiles/TourOfCPPActivity.dir/Source/main.cpp.obj	7a7c427566b556f1
+21	310	7597994655048955	CMakeFiles/TourOfCPPActivity.dir/Source/chapter1.cpp.obj	96e4876b46577a43
+17	100	7597994967309216	CMakeFiles/TourOfCPPActivity.dir/Source/main.cpp.obj	7a7c427566b556f1
+25	314	7597994967389213	CMakeFiles/TourOfCPPActivity.dir/Source/chapter1.cpp.obj	96e4876b46577a43
+314	376	7597994970281450	TourOfCPPActivity.exe	4a39d72e05171a7d
+14	99	7597997945373781	CMakeFiles/TourOfCPPActivity.dir/Source/main.cpp.obj	7a7c427566b556f1
+22	318	7597997945453788	CMakeFiles/TourOfCPPActivity.dir/Source/chapter1.cpp.obj	96e4876b46577a43
+318	384	7597997948412800	TourOfCPPActivity.exe	4a39d72e05171a7d
+12	309	7597998345648974	CMakeFiles/TourOfCPPActivity.dir/Source/chapter1.cpp.obj	96e4876b46577a43
+309	371	7597998348624674	TourOfCPPActivity.exe	4a39d72e05171a7d
+14	418	7598005198601244	CMakeFiles/TourOfCPPActivity.dir/Source/chapter1.cpp.obj	96e4876b46577a43
+419	487	7598005202643881	TourOfCPPActivity.exe	4a39d72e05171a7d
