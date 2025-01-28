@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ZLSSettings">
+    <option name="zlsPath" value="X:\Zig\zls\zig-out\bin\zls.exe" />
+  </component>
+  <component name="ZigProjectSettings">
+    <option name="toolchainPath" value="X:\Zig\zig-windows-x86_64-0.14.0-dev.2265+8a00bd4ce" />
+  </component>
+</project>

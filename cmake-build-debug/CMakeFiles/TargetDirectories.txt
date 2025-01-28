@@ -1,0 +1,3 @@
+D:/TourOfCPPActivity/cmake-build-debug/CMakeFiles/TourOfCPPActivity.dir
+D:/TourOfCPPActivity/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/TourOfCPPActivity/cmake-build-debug/CMakeFiles/rebuild_cache.dir
