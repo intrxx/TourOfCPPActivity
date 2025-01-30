@@ -109,6 +109,33 @@ int count_x(const char* p, char x){
     return count;
 }
 
+bool accept(){
+    std::cout << "Do you want to continue (y or n)?\n";
+    char answer = 0;
+
+    std::cin >> answer;
+    if(answer == 'y'){
+        return true;
+    }
+    return false;
+}
+
+bool accept1(){
+    std::cout << "Do you want to continue (y or n)?\n";
+    char answer = 0;
+
+    std::cin >> answer;
+    switch (answer) {
+        case 't':
+            return true;
+        case 'n':
+            return false;
+        default:
+            std::cout << "Will treat it like no. \n";
+            return false;
+    }
+}
+
 void chapter1(){
 
     // 1.2
@@ -214,4 +241,14 @@ void chapter1(){
     const char* pp = "Hello tour of cpp";
     int res1 = count_x(pp, 'p');
     print(res1);
+
+    accept();
+
+    int xx = 7;
+    int& rr {xx};
+    print(rr);
+    rr = 8;
+    print(xx);
+
+    // int& r2; references require initialization
 }
