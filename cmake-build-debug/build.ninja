@@ -61,6 +61,18 @@ build CMakeFiles/TourOfCPPActivity.dir/Source/chapter1.cpp.obj: CXX_COMPILER__To
   OBJECT_DIR = CMakeFiles\TourOfCPPActivity.dir
   OBJECT_FILE_DIR = CMakeFiles\TourOfCPPActivity.dir\Source
 
+build CMakeFiles/TourOfCPPActivity.dir/Source/chapter2.cpp.obj: CXX_COMPILER__TourOfCPPActivity_unscanned_Debug D$:/TourOfCPPActivity/Source/chapter2.cpp || cmake_object_order_depends_target_TourOfCPPActivity
+  DEP_FILE = CMakeFiles\TourOfCPPActivity.dir\Source\chapter2.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TourOfCPPActivity.dir
+  OBJECT_FILE_DIR = CMakeFiles\TourOfCPPActivity.dir\Source
+
+build CMakeFiles/TourOfCPPActivity.dir/Source/printer.cpp.obj: CXX_COMPILER__TourOfCPPActivity_unscanned_Debug D$:/TourOfCPPActivity/Source/printer.cpp || cmake_object_order_depends_target_TourOfCPPActivity
+  DEP_FILE = CMakeFiles\TourOfCPPActivity.dir\Source\printer.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TourOfCPPActivity.dir
+  OBJECT_FILE_DIR = CMakeFiles\TourOfCPPActivity.dir\Source
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TourOfCPPActivity
@@ -69,7 +81,7 @@ build CMakeFiles/TourOfCPPActivity.dir/Source/chapter1.cpp.obj: CXX_COMPILER__To
 #############################################
 # Link the executable TourOfCPPActivity.exe
 
-build TourOfCPPActivity.exe: CXX_EXECUTABLE_LINKER__TourOfCPPActivity_Debug CMakeFiles/TourOfCPPActivity.dir/Source/main.cpp.obj CMakeFiles/TourOfCPPActivity.dir/Source/chapter1.cpp.obj
+build TourOfCPPActivity.exe: CXX_EXECUTABLE_LINKER__TourOfCPPActivity_Debug CMakeFiles/TourOfCPPActivity.dir/Source/main.cpp.obj CMakeFiles/TourOfCPPActivity.dir/Source/chapter1.cpp.obj CMakeFiles/TourOfCPPActivity.dir/Source/chapter2.cpp.obj CMakeFiles/TourOfCPPActivity.dir/Source/printer.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TourOfCPPActivity.dir

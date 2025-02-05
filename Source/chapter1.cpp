@@ -4,6 +4,8 @@
 #include <utility>
 #include <vector>
 
+#include "printer.h"
+
 /*
 void print(int x, double y){
     // This code will cause compiler error
@@ -13,22 +15,6 @@ void print(double x, int y){
     // This code will cause compiler error
 }
 */
-
-void print(int x){
-    std::cout << x << "\n";
-}
-
-void print(double x){
-    std::cout << x << "\n";
-}
-
-void print(unsigned long long x){
-    std::cout << x << "\n";
-}
-
-void print(const std::string& x){
-    std::cout << x << "\n";
-}
 
 double square(double x){
     return x*x;
@@ -51,7 +37,7 @@ struct Record {
 void some_global_func(int with_local_arg){
     std::string local_string = "I'm local!";
     auto p = new Record("Hume");
-    print(p->name);
+    prnt::print(p->name);
     delete p;
 }
 
@@ -146,35 +132,35 @@ void chapter1(){
 
     // 1.3
     print_square(1.234);
-    print(42);
-    print(9.65);
-    print("Barcelona");
+    prnt::print(42);
+    prnt::print(9.65);
+    prnt::print("Barcelona");
 
     // print(0, 0); this call is ambiguous
 
     // 1.4
-    print(sizeof(char));
-    print(sizeof(int));
+    prnt::print(sizeof(char));
+    prnt::print(sizeof(int));
     std::int32_t int32 = 31312;
-    print(sizeof(int32));
+    prnt::print(sizeof(int32));
 
     int binary = 0b101011001;
-    print(binary);
+    prnt::print(binary);
     int hex = 0x52BA12F;
-    print(hex);
+    prnt::print(hex);
     int octal = 03347;
-    print(octal);
+    prnt::print(octal);
 
     double pi = 3.14159'26535'89793'23846'26433'83279'50288;
-    print(pi);
+    prnt::print(pi);
 
     // 1.4.1
     double d = 2.2;
     int i = 7;
     d = d+i;
-    print(d);
+    prnt::print(d);
     i = d+i;
-    print(i);
+    prnt::print(i);
 
     // 1.4.2
     double d1 = 2.3;
@@ -214,13 +200,13 @@ void chapter1(){
     constexpr double max4 = 1.4 * consteval_square(17);
     // const double max5 = 1.4 * consteval_square(var); // this is not okay, consteval forces us to use constant values and var isn't constant
     constexpr double res = nth(15, 5);
-    print(res);
+    prnt::print(res);
 
     // 1.7
     char arr[6] = {1, 2, 3, 4, 5, 6};
     char* p = &arr[3];
     char value_p = *p;
-    print(value_p);
+    prnt::print(value_p);
 
     int arr1[] = {0, 1, 2, 3, 4, 5};
     for(auto& x : arr1){
@@ -240,15 +226,15 @@ void chapter1(){
 
     const char* pp = "Hello tour of cpp";
     int res1 = count_x(pp, 'p');
-    print(res1);
+    prnt::print(res1);
 
     accept();
 
     int xx = 7;
     int& rr {xx};
-    print(rr);
+    prnt::print(rr);
     rr = 8;
-    print(xx);
+    prnt::print(xx);
 
     // int& r2; references require initialization
 }
