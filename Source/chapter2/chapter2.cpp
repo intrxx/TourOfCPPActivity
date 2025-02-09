@@ -1,7 +1,8 @@
 #include <iostream>
 #include <variant>
 
-#include "printer.h"
+#include "../printer.h"
+#include "../chapter3/Vector.h"
 
 enum class Type
 {
@@ -84,9 +85,12 @@ Traffic_light& operator++(Traffic_light& t){
             return t = yellow;
         case yellow:
             return t = red;
+        default:
+            throw std::logic_error("Invalid Traffic_light value");
     }
 }
 
+/*
 class Vector {
 public:
     explicit Vector(int s)
@@ -109,6 +113,7 @@ private:
     double* elem;
     int sz;
 };
+ */
 
 /*
 void vector_init(Vector& v, int s){

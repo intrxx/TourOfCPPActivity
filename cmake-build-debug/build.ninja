@@ -51,27 +51,39 @@ build cmake_object_order_depends_target_TourOfCPPActivity: phony || .
 
 build CMakeFiles/TourOfCPPActivity.dir/Source/main.cpp.obj: CXX_COMPILER__TourOfCPPActivity_unscanned_Debug D$:/TourOfCPPActivity/Source/main.cpp || cmake_object_order_depends_target_TourOfCPPActivity
   DEP_FILE = CMakeFiles\TourOfCPPActivity.dir\Source\main.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -fmodules-ts -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TourOfCPPActivity.dir
   OBJECT_FILE_DIR = CMakeFiles\TourOfCPPActivity.dir\Source
 
-build CMakeFiles/TourOfCPPActivity.dir/Source/chapter1.cpp.obj: CXX_COMPILER__TourOfCPPActivity_unscanned_Debug D$:/TourOfCPPActivity/Source/chapter1.cpp || cmake_object_order_depends_target_TourOfCPPActivity
-  DEP_FILE = CMakeFiles\TourOfCPPActivity.dir\Source\chapter1.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+build CMakeFiles/TourOfCPPActivity.dir/Source/chapter1/chapter1.cpp.obj: CXX_COMPILER__TourOfCPPActivity_unscanned_Debug D$:/TourOfCPPActivity/Source/chapter1/chapter1.cpp || cmake_object_order_depends_target_TourOfCPPActivity
+  DEP_FILE = CMakeFiles\TourOfCPPActivity.dir\Source\chapter1\chapter1.cpp.obj.d
+  FLAGS = -fmodules-ts -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TourOfCPPActivity.dir
-  OBJECT_FILE_DIR = CMakeFiles\TourOfCPPActivity.dir\Source
+  OBJECT_FILE_DIR = CMakeFiles\TourOfCPPActivity.dir\Source\chapter1
 
-build CMakeFiles/TourOfCPPActivity.dir/Source/chapter2.cpp.obj: CXX_COMPILER__TourOfCPPActivity_unscanned_Debug D$:/TourOfCPPActivity/Source/chapter2.cpp || cmake_object_order_depends_target_TourOfCPPActivity
-  DEP_FILE = CMakeFiles\TourOfCPPActivity.dir\Source\chapter2.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+build CMakeFiles/TourOfCPPActivity.dir/Source/chapter2/chapter2.cpp.obj: CXX_COMPILER__TourOfCPPActivity_unscanned_Debug D$:/TourOfCPPActivity/Source/chapter2/chapter2.cpp || cmake_object_order_depends_target_TourOfCPPActivity
+  DEP_FILE = CMakeFiles\TourOfCPPActivity.dir\Source\chapter2\chapter2.cpp.obj.d
+  FLAGS = -fmodules-ts -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TourOfCPPActivity.dir
-  OBJECT_FILE_DIR = CMakeFiles\TourOfCPPActivity.dir\Source
+  OBJECT_FILE_DIR = CMakeFiles\TourOfCPPActivity.dir\Source\chapter2
 
 build CMakeFiles/TourOfCPPActivity.dir/Source/printer.cpp.obj: CXX_COMPILER__TourOfCPPActivity_unscanned_Debug D$:/TourOfCPPActivity/Source/printer.cpp || cmake_object_order_depends_target_TourOfCPPActivity
   DEP_FILE = CMakeFiles\TourOfCPPActivity.dir\Source\printer.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -fmodules-ts -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TourOfCPPActivity.dir
   OBJECT_FILE_DIR = CMakeFiles\TourOfCPPActivity.dir\Source
+
+build CMakeFiles/TourOfCPPActivity.dir/Source/chapter3/chapter3.cpp.obj: CXX_COMPILER__TourOfCPPActivity_unscanned_Debug D$:/TourOfCPPActivity/Source/chapter3/chapter3.cpp || cmake_object_order_depends_target_TourOfCPPActivity
+  DEP_FILE = CMakeFiles\TourOfCPPActivity.dir\Source\chapter3\chapter3.cpp.obj.d
+  FLAGS = -fmodules-ts -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TourOfCPPActivity.dir
+  OBJECT_FILE_DIR = CMakeFiles\TourOfCPPActivity.dir\Source\chapter3
+
+build CMakeFiles/TourOfCPPActivity.dir/Source/chapter3/Vector.cpp.obj: CXX_COMPILER__TourOfCPPActivity_unscanned_Debug D$:/TourOfCPPActivity/Source/chapter3/Vector.cpp || cmake_object_order_depends_target_TourOfCPPActivity
+  DEP_FILE = CMakeFiles\TourOfCPPActivity.dir\Source\chapter3\Vector.cpp.obj.d
+  FLAGS = -fmodules-ts -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TourOfCPPActivity.dir
+  OBJECT_FILE_DIR = CMakeFiles\TourOfCPPActivity.dir\Source\chapter3
 
 
 # =============================================================================
@@ -81,8 +93,8 @@ build CMakeFiles/TourOfCPPActivity.dir/Source/printer.cpp.obj: CXX_COMPILER__Tou
 #############################################
 # Link the executable TourOfCPPActivity.exe
 
-build TourOfCPPActivity.exe: CXX_EXECUTABLE_LINKER__TourOfCPPActivity_Debug CMakeFiles/TourOfCPPActivity.dir/Source/main.cpp.obj CMakeFiles/TourOfCPPActivity.dir/Source/chapter1.cpp.obj CMakeFiles/TourOfCPPActivity.dir/Source/chapter2.cpp.obj CMakeFiles/TourOfCPPActivity.dir/Source/printer.cpp.obj
-  FLAGS = -g
+build TourOfCPPActivity.exe: CXX_EXECUTABLE_LINKER__TourOfCPPActivity_Debug CMakeFiles/TourOfCPPActivity.dir/Source/main.cpp.obj CMakeFiles/TourOfCPPActivity.dir/Source/chapter1/chapter1.cpp.obj CMakeFiles/TourOfCPPActivity.dir/Source/chapter2/chapter2.cpp.obj CMakeFiles/TourOfCPPActivity.dir/Source/printer.cpp.obj CMakeFiles/TourOfCPPActivity.dir/Source/chapter3/chapter3.cpp.obj CMakeFiles/TourOfCPPActivity.dir/Source/chapter3/Vector.cpp.obj
+  FLAGS = -fmodules-ts -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TourOfCPPActivity.dir
   POST_BUILD = cd .

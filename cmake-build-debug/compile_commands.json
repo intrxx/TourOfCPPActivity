@@ -1,0 +1,38 @@
+[
+{
+  "directory": "D:/TourOfCPPActivity/cmake-build-debug",
+  "command": "C:\\Users\\iwni\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe  -fmodules-ts -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\TourOfCPPActivity.dir\\Source\\main.cpp.obj -c D:\\TourOfCPPActivity\\Source\\main.cpp",
+  "file": "D:\\TourOfCPPActivity\\Source\\main.cpp",
+  "output": "CMakeFiles\\TourOfCPPActivity.dir\\Source\\main.cpp.obj"
+},
+{
+  "directory": "D:/TourOfCPPActivity/cmake-build-debug",
+  "command": "C:\\Users\\iwni\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe  -fmodules-ts -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\TourOfCPPActivity.dir\\Source\\chapter1\\chapter1.cpp.obj -c D:\\TourOfCPPActivity\\Source\\chapter1\\chapter1.cpp",
+  "file": "D:\\TourOfCPPActivity\\Source\\chapter1\\chapter1.cpp",
+  "output": "CMakeFiles\\TourOfCPPActivity.dir\\Source\\chapter1\\chapter1.cpp.obj"
+},
+{
+  "directory": "D:/TourOfCPPActivity/cmake-build-debug",
+  "command": "C:\\Users\\iwni\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe  -fmodules-ts -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\TourOfCPPActivity.dir\\Source\\chapter2\\chapter2.cpp.obj -c D:\\TourOfCPPActivity\\Source\\chapter2\\chapter2.cpp",
+  "file": "D:\\TourOfCPPActivity\\Source\\chapter2\\chapter2.cpp",
+  "output": "CMakeFiles\\TourOfCPPActivity.dir\\Source\\chapter2\\chapter2.cpp.obj"
+},
+{
+  "directory": "D:/TourOfCPPActivity/cmake-build-debug",
+  "command": "C:\\Users\\iwni\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe  -fmodules-ts -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\TourOfCPPActivity.dir\\Source\\printer.cpp.obj -c D:\\TourOfCPPActivity\\Source\\printer.cpp",
+  "file": "D:\\TourOfCPPActivity\\Source\\printer.cpp",
+  "output": "CMakeFiles\\TourOfCPPActivity.dir\\Source\\printer.cpp.obj"
+},
+{
+  "directory": "D:/TourOfCPPActivity/cmake-build-debug",
+  "command": "C:\\Users\\iwni\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe  -fmodules-ts -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\TourOfCPPActivity.dir\\Source\\chapter3\\chapter3.cpp.obj -c D:\\TourOfCPPActivity\\Source\\chapter3\\chapter3.cpp",
+  "file": "D:\\TourOfCPPActivity\\Source\\chapter3\\chapter3.cpp",
+  "output": "CMakeFiles\\TourOfCPPActivity.dir\\Source\\chapter3\\chapter3.cpp.obj"
+},
+{
+  "directory": "D:/TourOfCPPActivity/cmake-build-debug",
+  "command": "C:\\Users\\iwni\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe  -fmodules-ts -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\TourOfCPPActivity.dir\\Source\\chapter3\\Vector.cpp.obj -c D:\\TourOfCPPActivity\\Source\\chapter3\\Vector.cpp",
+  "file": "D:\\TourOfCPPActivity\\Source\\chapter3\\Vector.cpp",
+  "output": "CMakeFiles\\TourOfCPPActivity.dir\\Source\\chapter3\\Vector.cpp.obj"
+}
+]
